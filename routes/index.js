@@ -69,7 +69,18 @@ router.get('/login', function(req, res, next) {
 })
 
 router.get('/admin/createEvent', function(req, res, next) {
+  //require admin login
   res.render('createEvent', {title: 'Project X Event Creation' })
+})
+
+router.post('/admin/createEvent', function(req, res) {
+  //require admin login
+  res.send('send an event object to be processed')
+})
+
+router.put('/admin/editEvent', function (req, res) {
+  //require admin login
+  res.send('send an event object to be processed')
 });
 
 module.exports = router;
