@@ -52,6 +52,10 @@ router.get('/constitution', function(req, res, next) {
 
 router.get('/sponsors', function(req, res, next) {
   res.render('sponsors', {title: 'Project X Sponsors' })
+})
+
+router.get('/labRules', function(req, res, next) {
+  res.render('rules', {title: 'Project X Lab Rules' })
 });
 
 module.exports = router;
