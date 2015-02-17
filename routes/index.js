@@ -56,6 +56,16 @@ router.get('/sponsors', function(req, res, next) {
 
 router.get('/labRules', function(req, res, next) {
   res.render('rules', {title: 'Project X Lab Rules' })
+})
+
+router.get('/admin', function(req, res, next) {
+  //Route to login if not logged in
+  res.render('rules', {title: 'Project X Lab Rules' })
 });
+
+router.get('/login', function(req, res, next) {
+  //route to home if logged in
+  res.render('login', {title: 'Project X Lab Rules' })
+})
 
 module.exports = router;
