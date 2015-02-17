@@ -60,12 +60,16 @@ router.get('/labRules', function(req, res, next) {
 
 router.get('/admin', function(req, res, next) {
   //Route to login if not logged in
-  res.render('rules', {title: 'Project X Lab Rules' })
-});
+  res.render('admin', {title: 'Project X Administration' })
+})
 
 router.get('/login', function(req, res, next) {
   //route to home if logged in
-  res.render('login', {title: 'Project X Lab Rules' })
+  res.render('login', {title: 'Project X Lab Login' })
 })
+
+router.get('/admin/createEvent', function(req, res, next) {
+  res.render('createEvent', {title: 'Project X Event Creation' })
+});
 
 module.exports = router;
