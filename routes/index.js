@@ -39,11 +39,19 @@ router.get('/upkeep', function(req, res, next) {
 })
 
 router.get('/winterball', function(req, res, next) {
-  res.render('winterball', {title: 'Project X Winterball' })
+  res.render('winterball', {title: 'Project X Winter Ball' })
 })
 
 router.get('/mentoring', function(req, res, next) {
   res.render('mentoring', {title: 'Project X Mentoring' })
+})
+
+router.get('/constitution', function(req, res, next) {
+  res.render('constitution', {title: 'Project X Constitutiton' })
+})
+
+router.get('/sponsors', function(req, res, next) {
+  res.render('sponsors', {title: 'Project X Sponsors' })
 });
 
 module.exports = router;
