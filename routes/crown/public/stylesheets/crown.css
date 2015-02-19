@@ -1,3 +1,17 @@
-div {
-  color: white;
+div#SponsorContent {
+  position:relative;
+  text-align:center;
+  width: 100%;
+  top: 140;
+}
+
+div#SponsorContent img {
+  margin: 20px 0 0 20px;
+}
+
+div#BecomeSponsor {
+  position:relative;
+  text-align:center;  
+  top:140;
+  padding-bottom: 50px;
 }

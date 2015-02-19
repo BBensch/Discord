@@ -1,3 +1,69 @@
-link(href='/crown/stylesheets/crown.css' rel='stylesheet')
-#first(style={background: 'green'})
-  |lorem ipsum
+html
+head
+  link(href='/crown/stylesheets/crown.css' rel='stylesheet')
+  link(href='/stylesheets/style.css' rel='stylesheet')
+
+body
+  #hmenu
+    if in_private
+      img(src="images/sse_logo_words_scaled.png")
+    else
+      img(src="http://lorempixel.com/300/84")
+    ul
+      li 
+        a(href='Calendar') Calendar
+      li
+        a(href='Events') Occurrances
+      li
+        a(href='About') About
+      li
+
+  #SponsorContent
+    h1 Commercial Sponsors
+
+    #SponsorGold
+      h2="Gold Level Sponsors"
+      img(src='http://lorempixel.com/400/300')
+      img(src='http://lorempixel.com/400/300')
+      img(src='http://lorempixel.com/400/300')
+      img(src='http://lorempixel.com/400/300')
+      img(src='http://lorempixel.com/400/300')
+      img(src='http://lorempixel.com/400/300')
+      img(src='http://lorempixel.com/400/300')
+
+    #SponsorSilver
+      h3="Silver Level Sponsors"
+      img(src='http://lorempixel.com/200/150')
+      img(src='http://lorempixel.com/200/150')
+      img(src='http://lorempixel.com/200/150')
+      img(src='http://lorempixel.com/200/150')
+      img(src='http://lorempixel.com/200/150')
+      img(src='http://lorempixel.com/200/150')
+      img(src='http://lorempixel.com/200/150')
+
+    #SponsorBronze
+      h4="Bronze Level Sponsors"
+      img(src='http://lorempixel.com/100/75')
+      img(src='http://lorempixel.com/100/75')
+      img(src='http://lorempixel.com/100/75')
+      img(src='http://lorempixel.com/100/75')
+      img(src='http://lorempixel.com/100/75')
+      img(src='http://lorempixel.com/100/75')
+      img(src='http://lorempixel.com/100/75')
+
+    #SponsorPast
+      h5="Past Sponsors"
+      p Name Name
+      p Name Name
+      p Name Name
+
+    #SponsorAlumni
+      h1 Alumni Supporters
+      p Person
+      p Person
+      p Person
+      p Person
+
+  #BecomeSponsor
+    h2="How to become a sponsor"
+
