@@ -6,11 +6,12 @@ head
   //link(type='text/css', rel='stylesheet', href='stylesheets/3cols.css')
 
 body
+  //img.bg(src='images/Allen-Mentoring.jpg')
   img.bg(src='images/placeholder.jpg')
 
   #hmenu
-    //img(src="http://lorempixel.com/300/100")
-    img(src="images/sse_logo_words_scaled.png")
+    img(src="http://lorempixel.com/300/84")
+    //img(src="images/sse_logo_words_scaled.png")
     ul
       li 
         a(href='Calendar') Calendar
@@ -23,13 +24,58 @@ body
   #Overlay
     h1 Welcome to Project X!
 
-  .section.group
-    .col.span_1_of_3
-      #ColumnAbout
-        p Col 1!
-    .col.span_2_of_3
-      #ColumnEvents
-        p Col 2!
-    .col.span_3_of_3
-      #ColumnSponsors  
-        p Swag
+  #Content
+    .section.group
+      .col-3.span_1_of_3
+        #ColumnAbout
+          h2 About
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum malesuada mollis. Nunc nec vehicula dolor. Sed id rhoncus mi, sed molestie mi. Proin id ultricies lectus. Nullam faucibus massa in lectus elementum tincidunt. Maecenas vitae magna quis sem vestibulum vulputate. Pellentesque commodo, lectus quis congue sodales, quam leo gravida nisl, et pellentesque erat sapien in velit. Etiam sit amet volutpat sapien, eu aliquet ligula. Ut id lacus tempor, tempor lectus quis, consectetur nulla.
+
+          p Nulla quis auctor diam, eu finibus nulla. Sed dui odio, porta non feugiat sit amet, suscipit vel orci. Etiam vitae elit id tortor varius bibendum ut eu lorem. Phasellus consequat massa id lorem tristique laoreet non a libero. In vestibulum semper ante. Integer faucibus fringilla molestie. Aenean hendrerit imperdiet eros non placerat. Fusce sit amet urna lectus. 
+      .col-3.span_2_of_3
+        #ColumnEvents
+          h2 Occurrances
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum malesuada mollis. Nunc nec vehicula dolor. Sed id rhoncus mi, sed molestie mi. Proin id ultricies lectus. Nullam faucibus massa in lectus elementum tincidunt. Maecenas vitae magna quis sem vestibulum vulputate. Pellentesque commodo, lectus quis congue sodales, quam leo gravida nisl, et pellentesque erat sapien in velit. Etiam sit amet volutpat sapien, eu aliquet ligula. Ut id lacus tempor, tempor lectus quis, consectetur nulla.
+
+          p Nulla quis auctor diam, eu finibus nulla. Sed dui odio, porta non feugiat sit amet, suscipit vel orci. Etiam vitae elit id tortor varius bibendum ut eu lorem. Phasellus consequat massa id lorem tristique laoreet non a libero. In vestibulum semper ante. Integer faucibus fringilla molestie. Aenean hendrerit imperdiet eros non placerat. Fusce sit amet urna lectus. 
+      .col-3.span_3_of_3
+        #ColumnSponsors  
+          h2 Sponsors
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum malesuada mollis. Nunc nec vehicula dolor. Sed id rhoncus mi, sed molestie mi. Proin id ultricies lectus. Nullam faucibus massa in lectus elementum tincidunt. Maecenas vitae magna quis sem vestibulum vulputate. Pellentesque commodo, lectus quis congue sodales, quam leo gravida nisl, et pellentesque erat sapien in velit. Etiam sit amet volutpat sapien, eu aliquet ligula. Ut id lacus tempor, tempor lectus quis, consectetur nulla.
+
+          p Nulla quis auctor diam, eu finibus nulla. Sed dui odio, porta non feugiat sit amet, suscipit vel orci. Etiam vitae elit id tortor varius bibendum ut eu lorem. Phasellus consequat massa id lorem tristique laoreet non a libero. In vestibulum semper ante. Integer faucibus fringilla molestie. Aenean hendrerit imperdiet eros non placerat. Fusce sit amet urna lectus. 
+
+    #getInvolved
+      h2 Want to join the Project X?
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum malesuada mollis. Nunc nec vehicula dolor. Sed id rhoncus mi, sed molestie mi. Proin id ultricies lectus. Nullam faucibus massa in lectus elementum tincidunt. Maecenas vitae magna quis sem vestibulum vulputate. Pellentesque commodo, lectus quis congue sodales, quam leo gravida nisl, et pellentesque erat sapien in velit. Etiam sit amet volutpat sapien, eu aliquet ligula. Ut id lacus tempor, tempor lectus quis, consectetur nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum malesuada mollis. Nunc nec vehicula dolor. Sed id rhoncus mi, sed molestie mi. Proin id ultricies lectus. Nullam faucibus massa in lectus elementum tincidunt. Maecenas vitae magna quis sem vestibulum vulputate. Pellentesque commodo, lectus quis congue sodales, quam leo gravida nisl, et pellentesque erat sapien in velit. Etiam sit amet volutpat sapien, eu aliquet ligula. Ut id lacus tempor, tempor lectus quis, consectetur nulla.
+
+      p Nulla quis auctor diam, eu finibus nulla. Sed dui odio, porta non feugiat sit amet, suscipit vel orci. Etiam vitae elit id tortor varius bibendum ut eu lorem. Phasellus consequat massa id lorem tristique laoreet non a libero. In vestibulum semper ante. Integer faucibus fringilla molestie. Aenean hendrerit imperdiet eros non placerat. Fusce sit amet urna lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum malesuada mollis. Nunc nec vehicula dolor. Sed id rhoncus mi, sed molestie mi. Proin id ultricies lectus. Nullam faucibus massa in lectus elementum tincidunt. Maecenas vitae magna quis sem vestibulum vulputate. Pellentesque commodo, lectus quis congue sodales, quam leo gravida nisl, et pellentesque erat sapien in velit. Etiam sit amet volutpat sapien, eu aliquet ligula. Ut id lacus tempor, tempor lectus quis, consectetur nulla.
+
+  //
+    #SiteMap
+      h2="Site Map"
+        .section.group
+          .col-3.span_1_of_3
+            a(href='officers') Officers List
+            br
+            a(href='events/cal') Events Calendar
+            br
+            a(href='qdb') Quote Database
+            br
+            a(href='externalLinks') External Resources
+          .col-3.span_2_of_3
+            a(href='mentoring') Mentoring
+            br
+            a(href='fundraising') Fundraising
+            br
+            a(href='pr') Public Relations
+            br
+            a(href='projects') Projects
+          .col-3.span_3_of_3
+            a(href='events') Events
+            br
+            a(href='winterball') Winter Ball
+            br
+            a(href='upkeep') Lab Upkeep
+            br
+            a(href='technology') Technology 

@@ -1,5 +1,7 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  z-index: -2;
 }
 
 /* Landing Background */
@@ -49,7 +51,7 @@ img.logo {
 div#hmenu {
    margin: 0;
    padding: 0 0 0 0;
-   background: #89A7C2;
+   background: #344152;
    width: 100%;
    min-height: 100px;
    text-align: center;
@@ -87,7 +89,7 @@ div#hmenu ul a:link{
    text-decoration: none;
    font-weight: bold;
    font-size: 22px;
-   color: #004415;
+   color: #499DF5;
 }
 
 /* Landing Content */
@@ -98,7 +100,11 @@ div#Overlay {
 	text-align: center;
 	width: 100%;
 	top: 140;
-	height: 90%;
+	height: 87.5%;
+}
+
+div#Content {
+  background: #0478b5;
 }
 
 div#overlay h1 {
@@ -118,20 +124,32 @@ div#ColumnSponsors {
 	text-align:center;
 }
 
+div#getInvolved {
+  text-align:center;
+  padding-bottom: 30px;
+}
+
+div#SiteMap {
+  text-align:center;
+}
+
 /*  SECTIONS  */
 .section {
+  position:relative;
 	clear: both;
 	padding: 0px;
 	margin: 0px;
+  top: 0;
+  left: 0;
 }
 
 /*  COLUMN SETUP  */
-.col {
+.col-3 {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 0; }
+.col-3:first-child { margin-left: 0; }
 
 /*  GROUPING  */
 .group:before,
@@ -143,6 +161,10 @@ div#ColumnSponsors {
 .span_3_of_3 { width: 32.26%; }
 .span_2_of_3 { width: 32.26%; }
 .span_1_of_3 { width: 32.26%; }
+
+/*  GRID OF TWO */
+.span-1-of-2 {width: 49.5%;}
+.span-2-of-2 {width: 49.5%;}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
