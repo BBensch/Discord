@@ -5,6 +5,14 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var app = express();
+
+// ProjectX public/private development
+app.use(function(req, res, next) {
+  res.locals.in_private = process.env.IN_PRIVATE;
+  next();
+});
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var crown = require('./routes/crown/app');
@@ -15,8 +23,6 @@ var janitor = require('./routes/janitor/app');
 var outreach = require('./routes/outreach/app');
 var party = require('./routes/party/app');
 var help = require('./routes/help/app');
-
-var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
