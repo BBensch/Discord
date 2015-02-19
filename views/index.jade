@@ -6,14 +6,18 @@ head
   //link(type='text/css', rel='stylesheet', href='stylesheets/3cols.css')
 
 body
-  //img.bg(src='images/Allen-Mentoring.jpg')
-  img.bg(src='images/placeholder.jpg')
-  //img.bg(src='images/Lab-1.jpg')
+  if in_private
+    img.bg(src='images/Lab-1.jpg')
+  else
+    img.bg(src='images/placeholder.jpg')
+    //img.bg(src='images/Allen-Mentoring.jpg')
 
   //block header
   #hmenu
-    img(src="http://lorempixel.com/300/84")
-    //img(src="images/sse_logo_words_scaled.png")
+    if in_private
+      img(src="images/sse_logo_words_scaled.png")
+    else
+      img(src="http://lorempixel.com/300/84")
     ul
       li 
         a(href='Calendar') Calendar
