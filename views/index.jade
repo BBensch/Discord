@@ -2,17 +2,34 @@ html
 
 head
   link(type='text/css', rel='stylesheet', href='stylesheets/style.css')
+  //link(type='text/css', rel='stylesheet', href='stylesheets/col.css')
+  //link(type='text/css', rel='stylesheet', href='stylesheets/3cols.css')
 
 body
   img.bg(src='images/placeholder.jpg')
 
-#hmenu
-  img(src="http://lorempixel.com/300/100")
-  ul
-    li 
-      a(href='Calendar') Calendar
-    li
-      a(href='Events') Occurances
-    li
-      a(href='About') About
-    li
+  #hmenu
+    //img(src="http://lorempixel.com/300/100")
+    img(src="images/sse_logo_words_scaled.png")
+    ul
+      li 
+        a(href='Calendar') Calendar
+      li
+        a(href='Events') Occurances
+      li
+        a(href='About') About
+      li
+  
+  #Overlay
+    h1 Welcome to Project X!
+
+  .section.group
+    .col.span_1_of_3
+      #ColumnAbout
+        p Col 1!
+    .col.span_2_of_3
+      #ColumnEvents
+        p Col 2!
+    .col.span_3_of_3
+      #ColumnSponsors  
+        p Swag
