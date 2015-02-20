@@ -5,12 +5,12 @@ div#ActiveProjects {
 	width:100%;
 }
 
-div#LeftCreation {
-	width: 100%;
+div#ActiveProjects img {
+	padding: 10 10 0 0;
 }
 
-div#LeftCreation h2 {
-	padding: 50 0 0 0;
+div#LeftCreation {
+	width: 100%;
 }
 
 div#RightCreation {
