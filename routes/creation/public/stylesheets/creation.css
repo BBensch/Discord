@@ -34,7 +34,7 @@ div#RightCreation h2 {
 	margin: 2% 3.2% 2% 3.2;
 }
 
-.col-2-left:first-child { margin-left: 0;}
+.col-2-left:first-child { margin-left: 0; padding: 0 0 0 50;}
 .col-2-right:first-child { margin-right: 0;}
 
 .span_1_of_2 { width: 45%; padding: 0 40 0 0;}
