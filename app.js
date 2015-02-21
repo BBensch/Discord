@@ -14,7 +14,6 @@ app.use(function(req, res, next) {
 });
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 var crown = require('./routes/crown/app');
 var creation = require('./routes/creation/app');
 var science = require('./routes/science/app');
