@@ -10,6 +10,9 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
   res.render('index');
+})
+app.get('/info', function(req, res) {
+	res.render('info');
 });
 
 module.exports = app;

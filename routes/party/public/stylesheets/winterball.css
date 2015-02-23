@@ -1,0 +1,17 @@
+div#WinterballContent {
+	position:relative;
+	top:140;
+	text-align:center;
+}
+
+.col-2 {
+  display: block;
+  float:left;
+  padding: 0 0 0 4%;
+  margin: 1% 1.5% 0 2.5%;
+}
+
+.col-2:first-child { margin-left: 0;}
+
+.span_1_of_2 {width: 40%;}
+.span_2_of_2 {width: 40%;}

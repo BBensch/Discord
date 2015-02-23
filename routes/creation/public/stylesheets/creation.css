@@ -9,6 +9,10 @@ div#ActiveProjects img {
 	padding: 10 10 0 0;
 }
 
+div#ActiveProjects h1 {
+	margin: auto auto 0 auto;
+}
+
 div#LeftCreation {
 	width: 100%;
 }
@@ -20,6 +24,13 @@ div#RightCreation {
 
 div#RightCreation h2 {
 	padding: 50 0 0 0;
+}
+
+div#InfoContent {
+	position: relative;
+	text-align:center;
+	top: 140;
+	width: 100%;
 }
 
 .col-2-left {
