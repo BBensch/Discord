@@ -2,6 +2,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 0px;
   z-index: -2;
+  background: #333333;
 }
 
 body p { 
@@ -108,6 +109,7 @@ div#hmenu ul a:link{
 
 div#Overlay {
 	position: relative;
+	color: white;
 	left: 0;
 	text-align: center;
 	width: 100%;
@@ -121,7 +123,13 @@ div#Overlay h1 {
 }
 
 div#Content {
-  background: #00BFFF;
+  color: white;
+  text-align: center;
+  padding: 0 15% 0 15%;
+}
+
+div#Content h2 {
+	text-align: Center;
 }
 
 div#ColumnAbout {
@@ -168,6 +176,14 @@ div#footer p {
 	margin: 0px;
 }
 
+div#Content img {
+	max-height: 400px;
+	max-width: 300px;
+	height: auto;
+	width: auto;
+	margin: 10% 0 0 0;
+}
+
 /*  SECTIONS  */
 .section {
   position:relative;
@@ -186,6 +202,14 @@ div#footer p {
 }
 .col-3:first-child { margin-left: 0; }
 
+.col-2-right {
+	display: block;
+	float: right;
+	margin: 1% .5% 1% 0%;
+}
+
+.col-2-right:first-child { margin-right: 0;}
+
 /*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table; }
@@ -198,8 +222,8 @@ div#footer p {
 .span_1_of_3 { width: 31.73%; }
 
 /*  GRID OF TWO */
-.span-1-of-2 {width: 49.5%;}
-.span-2-of-2 {width: 49.5%;}
+.span_1_of_2 {width: 49.5%;}
+.span_2_of_2 {width: 49.5%;}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
