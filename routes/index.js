@@ -14,8 +14,8 @@ router.get('/constitution', function(req, res, next) {
   res.render('constitution', {title: 'Project X Constitutiton' })
 })
 
-router.get('/sponsors', function(req, res, next) {
-  res.render('sponsors', {title: 'Project X Sponsors' })
+router.get('/external', function(req, res, next) {
+  res.render('externalLinks', {title: 'Project X External Resources' })
 })
 
 router.get('/labRules', function(req, res, next) {

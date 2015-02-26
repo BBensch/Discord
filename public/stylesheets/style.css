@@ -3,6 +3,7 @@ body {
   margin: 0px;
   z-index: -2;
   background: #333333;
+  color: white;
 }
 
 body p { 
@@ -177,8 +178,8 @@ div#footer p {
 }
 
 div#Content img {
-	max-height: 400px;
-	max-width: 300px;
+	max-height: 450px;
+	max-width: 350px;
 	height: auto;
 	width: auto;
 	margin: 10% 0 0 0;
