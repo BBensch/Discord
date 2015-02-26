@@ -14,14 +14,14 @@ app.use(function(req, res, next) {
 });
 
 var routes = require('./routes/index');
-var crown = require('./routes/crown/app');
-var creation = require('./routes/creation/app');
-var science = require('./routes/science/app');
-var happening = require('./routes/happening/app');
-var janitor = require('./routes/janitor/app');
-var outreach = require('./routes/outreach/app');
-var party = require('./routes/party/app');
-var help = require('./routes/help/app');
+var fundraising = require('./routes/Fundraising/app');
+var projects = require('./routes/Projects/app');
+var technology = require('./routes/Technology/app');
+var events = require('./routes/Events/app');
+var upkeep = require('./routes/Upkeep/app');
+var publicrelations = require('./routes/PublicRelations/app');
+var winterball = require('./routes/WinterBall/app');
+var mentoring = require('./routes/Mentoring/app');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -36,14 +36,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/crown', crown	);
-app.use('/creation', creation);
-app.use('/science', science);
-app.use('/happening', happening);
-app.use('/janitor', janitor);
-app.use('/outreach', outreach);
-app.use('/party', party);
-app.use('/help', help);
+app.use('/fundraising', fundraising);
+app.use('/projects', projects);
+app.use('/technology', technology);
+app.use('/events', events);
+app.use('/upkeep', upkeep);
+app.use('/PublicRelations', publicrelations);
+app.use('/winterball', winterball);
+app.use('/mentoring', mentoring);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
