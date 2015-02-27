@@ -61,6 +61,7 @@ img.logo {
 }
 
 div#hmenu {
+  position: absolute;
    margin: 0;
    padding: 0 0 0 0;
    background: #344152;
@@ -161,6 +162,7 @@ div#getInvolved ul {
 
 div#SiteMap {
   text-align:center;
+  position: relative;
 }
 
 div#SiteMap a {

@@ -10,7 +10,7 @@ router.get('/about', function(req, res, next) {
   res.render('about', {title: 'About The Project X' })
 })
 
-router.get('/constitution', function(req, res, next) {
+router.get('/constitution', function(req, res, next) {cm
   res.render('constitution', {title: 'Project X Constitutiton' })
 })
 
@@ -46,5 +46,9 @@ router.put('/admin/editEvent', function (req, res) {
   //require admin login
   res.send('send an event object to be processed')
 });
+
+router.get('/home', function (req, res, next) {
+  res.render('test')
+})
 
 module.exports = router;

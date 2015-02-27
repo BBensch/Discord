@@ -1,23 +1,9 @@
-html
-head
+extends ../../../views/base.jade
+block css
   link(href='/projects/stylesheets/projects.css' rel='stylesheet')
-  link(href='/stylesheets/style.css' rel='stylesheet')
-body
-  #hmenu
-    if in_private
-      img(src="/images/sse_logo_words_scaled.png")
-    else
-      img(src="http://lorempixel.com/300/84")
-    ul
-      li 
-        a(href='/Calendar') Calendar
-      li
-        a(href='/Events') Occurrances
-      li
-        a(href='/About') About
-      li
 
-  #InfoContent
+block content
+  #ProjectsContent
     h1 Want to start your own Project?
     .section.group
       .col-2-left.span_1_of_2

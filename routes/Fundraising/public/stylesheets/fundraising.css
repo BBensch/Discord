@@ -3,6 +3,7 @@ div#SponsorContent {
   text-align:center;
   width: 100%;
   top: 140;
+  padding-bottom: 10%;
 }
 
 div#SponsorContent img {
@@ -11,8 +12,6 @@ div#SponsorContent img {
 
 div#BecomeSponsor {
   position:relative;
-  text-align:center;  
-  top:140;
-  padding-bottom: 50px;
+  text-align:center;
   margin: 20 20 0 20;
 }

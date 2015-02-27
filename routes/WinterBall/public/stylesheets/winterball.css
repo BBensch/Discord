@@ -2,10 +2,11 @@ div#WinterballContent {
 	position:relative;
 	top:140;
 	text-align:center;
+	padding-bottom: 10%;
 }
 
 .col-2 {
-  display: block;
+  display: block;	
   float:left;
   padding: 0 0 0 4%;
   margin: 1% 1.5% 0 2.5%;

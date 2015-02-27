@@ -1,15 +1,16 @@
-div#ActiveProjects {
+div#ProjectsContent {
 	position: relative;
 	text-align: center;
 	top: 140;
 	width:100%;
+	padding-bottom: 10%;
 }
 
-div#ActiveProjects img {
+div#ProjectsContent img {
 	padding: 10 10 0 0;
 }
 
-div#ActiveProjects h1 {
+div#ProjectsContent h1 {
 	margin: auto auto 0 auto;
 }
 
@@ -26,12 +27,6 @@ div#RightCreation h2 {
 	padding: 50 0 0 0;
 }
 
-div#InfoContent {
-	position: relative;
-	text-align:center;
-	top: 140;
-	width: 100%;
-}
 
 .col-2-left {
 	display: block;
