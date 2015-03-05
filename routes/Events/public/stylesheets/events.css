@@ -1,0 +1,17 @@
+div#CreateEventContext {
+	position:relative;
+	top:140;
+	text-align:center;
+	padding-bottom: 10%;
+}
+.col-2 {
+  display: block;
+  float:right;
+  padding: 0 8% 0 0;
+  margin: 1% .5% 0 1.5%;
+}
+
+.col-2:first-child { margin-right: 0;}
+
+.span_1_of_2 {width: 40%;}
+.span_2_of_2 {width: 40%;}
